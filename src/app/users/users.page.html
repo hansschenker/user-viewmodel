@@ -1,0 +1,15 @@
+<ul>
+  <li>
+    <a routerLink="list">List</a>
+  </li>
+  <li>
+    <a routerLink="add">Add</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
+
+<div *ngIf="vm$ | async as vm">
+
+ <user-list  [items] = "vm.items"></user-list>
+
+</div>

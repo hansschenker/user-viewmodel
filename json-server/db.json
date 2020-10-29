@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "name": "Hans" , "email": "hans@test.com"},
+    { "id": 2, "name": "Carla" , "email": "carla@test.com"},
+    { "id": 3, "name": "Rekan" , "email": "rekna@test.com"}
+  ],
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
